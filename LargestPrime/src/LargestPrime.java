@@ -16,7 +16,7 @@ public class LargestPrime {
             if (number % i == 0) {
                 //divisor = 21
                 divisor = i;
-                // preference would have been to have this in submethod to avoid O(n^2)
+                // preference would have been to have this in separate method to avoid O(n^2)
                 // class requested one method
                 for (int j = 2; j < divisor; j++) {
                     if (divisor % j == 0) {
